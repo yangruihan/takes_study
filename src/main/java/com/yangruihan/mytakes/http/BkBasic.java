@@ -18,6 +18,7 @@ import com.yangruihan.mytakes.misc.Utf8PrintStream;
 import com.yangruihan.mytakes.rq.RqLive;
 import com.yangruihan.mytakes.rq.RqWithHeaders;
 import com.yangruihan.mytakes.rs.RsPrint;
+import com.yangruihan.mytakes.rs.RsText;
 import com.yangruihan.mytakes.rs.RsWithStatus;
 
 import lombok.EqualsAndHashCode;

@@ -32,9 +32,9 @@ import java.io.InputStream;
  * but they must NOT require that the {@link InputStream} has to be read
  * from before the {@link Response#head()} method invocation.
  * 
- * <p>这个接口的实现可能需要{@link Response#head()}这个方法在从{@code InputStream}中
- * 读取从{@link Response#body()}方法中得到的数据之前被调用，但是读取{@link InputStream}
- * 不一定要在{@link Response#head()}方法执行之前
+ * <p>这个接口的实现可能需要{@link Response#head()}这个方法在从{@link Response#body()}
+ * 包含的{@code InputStream}中读取数据之前被调用，但是读取{@link InputStream}不一定要
+ * 在{@link Response#head()}方法执行之前
  * 
  * <p>All implementations of this interface must be immutable and thread-safe.
  * 
